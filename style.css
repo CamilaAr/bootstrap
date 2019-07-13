@@ -1,11 +1,15 @@
 *
 {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
+	font-size:18px; 
+	text-decoration:none;
+	color:#333;
+	list-style:none;
 	background: transparent; 
 }
 body{
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background: transparent !important; 
 }
 
@@ -104,30 +108,32 @@ background-color: rgba(0,0,0,0.5);
 }
 .sn p
 {
-	padding: 5px;
-	margin-top: 20px;
-	text-transform: uppercase;
 	color: white;
 }
-
-.btn-custom {
-	padding: 1px 15px 3px 2px;
-	border-radius: 50px;
-}
-
-.btn-icon {
-	padding: 8px;
+.sn p a
+{
+	padding: 5px;
+	margin-top: 20px;
+	color: white;
 	background: #00FFFF;
+	border-color: white;
 }
-.btn{
-	background: #00FFFF;
-	padding: 1px 15px 3px 2px;
-}
+
+
 .btn img 
 {
 	padding: 8px;
-	background: #00FFFF;
 	height: 50px;
 	width: auto;
 }
 /*fim do Sobre nós*/
+
+/*inicio do Produtos*/
+.produtos p
+{
+	color: blue;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*fim do Produtos*/
