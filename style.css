@@ -1,11 +1,14 @@
 *
 {
-	margin: 0;
-	padding: 0;
+	padding: 0px;
+	font-size:18px; 
+	text-decoration:none;
+	color:#333;
+	list-style:none;
 	background: transparent; 
 }
 body{
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background: transparent !important; 
 }
 
@@ -21,32 +24,26 @@ body{
 	margin-left: 200px; 
 }
 	
-}
 
-.navbar-nav
-{
-background-color: rgba(0,0,0,0.5);
-
-}
 
 .navbar
 {
 	margin: 0px 0px 0px 0px !important;
 	padding: 0px 10px!important;
+	background: transparent; 
+	text-shadow: 2px 2px black;
 	
 }
 
 
 .navbar-brand img
 {
-	height: 100px;
+	height: 100px !important;
 	width: auto;
+	background: transparent; 
 	/*margin-left: 200px;*/ 
-	background-color: rgba(0,0,0,0.5);
 }
-.navbar-brand{
-	background-color: white !important;
-}
+
 
 .navbar-nav li a
 {
@@ -55,18 +52,22 @@ background-color: rgba(0,0,0,0.5);
 	font-size: 15px;
 	float:right;
 	text-align: left;
-
+	background: transparent;
+	text-shadow: -2px -1px white; 
 }
+
 
 .fa-bars
 {
 	color: #fff;
 	font-size: 30px;
 	margin-left: 0px;
+	background: transparent; 
 }
 .navbar-toggler
 {
 	outline: none !important;
+	background: transparent; 
 }
 
 
@@ -104,30 +105,37 @@ background-color: rgba(0,0,0,0.5);
 }
 .sn p
 {
-	padding: 5px;
-	margin-top: 20px;
-	text-transform: uppercase;
 	color: white;
 }
-
-.btn-custom {
-	padding: 1px 15px 3px 2px;
-	border-radius: 50px;
-}
-
-.btn-icon {
-	padding: 8px;
+.sn p a
+{
+	padding: 5px;
+	margin-top: 20px;
+	color: white;
 	background: #00FFFF;
+	border-color: white;
 }
-.btn{
-	background: #00FFFF;
-	padding: 1px 15px 3px 2px;
-}
+
+
 .btn img 
 {
 	padding: 8px;
-	background: #00FFFF;
 	height: 50px;
 	width: auto;
 }
 /*fim do Sobre nós*/
+
+/*inicio do Produtos*/
+.produtos p
+{
+	color: blue;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*fim do Produtos*/
+
+/*inicio do contato*/
+
+
+/*fim do contato*/
