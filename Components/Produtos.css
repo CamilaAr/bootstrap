@@ -11,9 +11,18 @@
 	text-transform: uppercase;
 	padding: 10px;
 }
+.confira h1
+{
+	margin-left: 80px;
+}
+.p1
+{
+	margin-left: 30px;
+}
 
 .produtos img
 {
+	margin-left: 200px;
 	border-radius: 50%;
 	border:3px solid #021a40;
 	height: 100px;
@@ -21,6 +30,14 @@
   	margin-left: auto;
   	margin-right: auto;
 
+}
+hr.linha3{
+	border-top: 1px solid #8c8b8b;
+	 color:#000; 
+	 background-color:#000;
+	 border-color: #A8CF38;
+	 width: 200px;
+	 float: left;
 }
 
 /*fim do Produtos*/
