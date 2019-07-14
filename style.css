@@ -1,4 +1,14 @@
-*
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Components design --- */
+@import url("components/Contatos.css");
+@import url("components/Banner.css");
+@import url("components/Produtos.css");
+@import url("components/Sobrenos.css");
+@import url("components/Navbar.css");
+@import url("components/Rodape.css");
+
 {
 	padding: 0px;
 	font-size:18px; 
@@ -11,124 +21,3 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background: transparent !important; 
 }
-
-
-/*inicio do nav-bar */
-#nav-bar
-{
-	position:sticky;
-	top: 0;
-	z-index: 10;
-	background: transparent; 
-
-}
-
-
-.navbar-brand img
-{
-	height: 100px !important;
-	width: auto;
-	background: transparent; 
-	/*margin-left: 200px;*/ 
-}
-.navbar-nav li a
-{
-	color: blue !important;
-	font-weight: 600;
-	font-size: 15px;
-	float:right;
-	text-align: left;
-	background: transparent;
-	text-shadow: -2px -1px white; 
-}
-
-.navbar-toggler
-{
-	outline: none !important;
-	background: transparent; 
-}
-
-/*fim do nav-bar */
-
-/*inicio do Banner*/
-#banner
-{
-	background-image: linear-gradient(to right, #fff, #fff);
-}
-
-/*fim do Banner*/
-
-/*inicio do Sobre nós*/
-#sn
-{
-	background-color: blue;
-	padding: 80px 0;
-}
-
-.sn h4
-{
-	padding: 5px;
-	margin-top: 20px;
-	text-transform: uppercase;
-	color: lightgreen;
-
-}
-.sn h1
-{
-	padding: 5px;
-	margin-top: 20px;
-	text-transform: uppercase;
-	color: lightgreen;
-}
-.sn p
-{
-	color: white;
-}
-.sn p a
-{
-	padding: 5px;
-	margin-top: 20px;
-	color: white;
-	background: #00FFFF;
-	border-color: white;
-}
-
-
-.btn img 
-{
-	padding: 8px;
-	height: 50px;
-	width: auto;
-}
-/*fim do Sobre nós*/
-
-/*inicio do Produtos*/
-.produtos p
-{
-	color: blue;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-/*fim do Produtos*/
-
-/*inicio do contato*/
-
-.contato p
-{
-	text-align: center;
-
-}
-
-.col{
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:11;
-	width:100%;
-	height:100%;
-	opacity: .50;
-	filter: alpha(opacity=65);
-}
-$grid-columns: 1 !default;
-/*fim do contato*/

@@ -1,0 +1,26 @@
+/*inicio do Produtos*/
+.produtos
+{
+	padding: 20px;
+}
+
+.produtos p
+{
+	color: blue;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.produtos img
+{
+	border-radius: 50%;
+	border:3px solid #021a40;
+	height: 100px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+/*fim do Produtos*/

@@ -1,0 +1,36 @@
+/*inicio do nav-bar */
+.nav-bar
+{
+	position:sticky;
+	top: 0;
+	z-index: 10;
+	background: transparent; 
+
+}
+
+
+.navbar-brand img
+{
+	height: 50px !important;
+	width: auto;
+	background: transparent; 
+	/*margin-left: 200px;*/ 
+}
+.navbar-nav li a
+{
+	color: blue !important;
+	font-weight: 600;
+	font-size: 15px;
+	float:right;
+	text-align: left;
+	background: transparent;
+	text-shadow: -2px -1px white; 
+}
+
+.navbar-toggler
+{
+	outline: none !important;
+	background: transparent; 
+}
+
+/*fim do nav-bar */
