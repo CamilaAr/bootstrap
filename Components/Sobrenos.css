@@ -7,19 +7,33 @@
 
 .sn h4
 {
+	margin-left: 75px;
 	padding: 5px;
 	margin-top: 20px;
 	text-transform: uppercase;
 	color: #A8CF38;
 
 }
-hr.style1{
+hr.linha1{
 	border-top: 1px solid #8c8b8b;
 	 color:#000; 
 	 background-color:#000;
+	 border-color: white;
+	 width: 200px;
+	 float: left;
+}
+
+hr.linha2{
+	border-top: 1px solid #8c8b8b;
+	 color:#000; 
+	 background-color:#000;
+	 border-color: white;
+	 width: 200px;
+	 float: left;
 }
 .sn h1
 {
+	margin-left: 80px;
 	padding: 5px;
 	margin-top: 20px;
 	text-transform: uppercase;
@@ -27,12 +41,12 @@ hr.style1{
 }
 
 .sn p
-{
+{	margin-left: 80px;
 	color: white;
 }
 
 .sn a:link
-{
+{	margin-left: 80px;
 	color: #A8CF38;
 	font-weight: bold;
 }
@@ -42,12 +56,16 @@ hr.style1{
 }
  .snbtn
  {
+ 	size: 20px;
  	padding: 5px 5px;
- 	margin: 20px;
+
  	border-radius: 1000px;
  	border: 2px solid #FFFFFF;
  	background-color: #00599D;
- 	vertical-align: middle;
+ 	text-align: center;
+ 	justify-content: center;
+  	align-items: center;
+  	 	margin-left: 80px;
  }
 
  .snbtn p
@@ -57,7 +75,7 @@ hr.style1{
  }
 
  .snbtn img
-{
+{	
 	padding: 8px;
 	height: 40px;
 }

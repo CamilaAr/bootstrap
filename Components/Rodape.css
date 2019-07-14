@@ -6,3 +6,7 @@
 	color: #FFFFFF;
 	font-weight: lighter;
 }
+hr.linha4 {
+	background-color: #fff;
+	border-top: 1px dotted #8c8b8b;
+}
