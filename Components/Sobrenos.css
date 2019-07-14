@@ -1,0 +1,64 @@
+/*inicio do Sobre nós*/
+#sn
+{
+	background-color: #00599D;
+	padding: 80px 0;
+}
+
+.sn h4
+{
+	padding: 5px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #A8CF38;
+
+}
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+	 color:#000; 
+	 background-color:#000;
+}
+.sn h1
+{
+	padding: 5px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	color: #A8CF38;
+}
+
+.sn p
+{
+	color: white;
+}
+
+.sn a:link
+{
+	color: #A8CF38;
+	font-weight: bold;
+}
+
+.sn a:visited {
+  color: #A8CF38;
+}
+ .snbtn
+ {
+ 	padding: 5px 5px;
+ 	margin: 20px;
+ 	border-radius: 1000px;
+ 	border: 2px solid #FFFFFF;
+ 	background-color: #00599D;
+ 	vertical-align: middle;
+ }
+
+ .snbtn p
+ {
+ 	font-weight: bold;
+ 	color: #FFFFFF;
+ }
+
+ .snbtn img
+{
+	padding: 8px;
+	height: 40px;
+}
+/*fim do Sobre nós*/

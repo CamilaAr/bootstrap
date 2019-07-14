@@ -7,6 +7,10 @@
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
   </head>
 <body>
 
@@ -16,13 +20,13 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <div class="container">
     <a class="navbar-brand" href="#"><img src="imagens/logo.png"   class="img-fluid" alt="Responsive image"/></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-align-justify"></i>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-  
-      <ul class="navbar-nav ml-auto">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
         <li class="nav-item">
           <a class="nav-link" href="#">Home
               </a>
@@ -41,34 +45,42 @@
   </div>
 </nav>
 </section >
+
+
 <!-- banner -->
 <section id="banner">
-    <div style="width: 25%;background-color: #ef390c;height: 3px;float: left;"></div>
-<div style="width: 50%;background-color: #ffa000;height: 3px;float: left;"></div>
-<div style="width: 25%;background-color: #ef390c;height: 3px;float: left;"></div>
+  <div style="width: 25%;background-color: #00599D;height: 3px;float: left;"></div>
+  <div style="width: 50%;background-color: #A8CF38;height: 3px;float: left;"></div>
+  <div style="width: 25%;background-color: #00599D;height: 3px;float: left;"></div>
+
   <div class="#">
-<h1 class="title"></h1>
-  <img src="imagens/imagem1.jpg" class="img-fluid" alt="Responsive image"> 
+    <h1 class="title"></h1>
+    <img src="imagens/imagem1.jpg" class="img-fluid" alt="Responsive image"> 
   </div> 
 </section>
+<!-- fim banner -->
+
 <!-- sobre nós -->
 <section id="sn">
-
   <div class="container">
     <div class="row">
       <div class = "col-md-6 sn">
-      <h1> Sobre Nós </h1>
-      <p>A empresa Álcool Safra, foi fundada em 22 de fevereiro de 2011, sendo hoje considerada um sinônimo de álcool doméstico, com qualidadade comprovada, em todo Brasil.Nós da Álcool Safra buscamos ser referÊncia nas áreas de higiene e limpeza, através de soluções eficazes de produtos e seriços. Estamos presentes em todos os pontos de consumo, sempre valorizando qualidade, ótimo atendimento e respeito ao meio ambiente</p>
+        <h1> Sobre Nós </h1>
+        <br>
+        <hr class="style1">
+        <br>
+          <p>A empresa Álcool Safra, foi fundada em 22 de fevereiro de 2011, sendo hoje considerada um sinônimo de álcool doméstico, com qualidadade comprovada, em todo Brasil.Nós da Álcool Safra buscamos ser referÊncia nas áreas de higiene e limpeza, através de soluções eficazes de produtos e seriços. Estamos presentes em todos os pontos de consumo, sempre valorizando qualidade, ótimo atendimento e respeito ao meio ambiente</p>
+          <a href="https://youtu.be/fm-q0ELuk1A">> Saiba Mais</a>
       </div>
+     
       <div class = "col-md-6 sn">
-      <h4> Sobre Nós </h4>
-      <p>Aqui você pode conhecer toda nossa linha de produtos com suas características técnicas</p>
-      <p class="text-center">
-          <a href="#" class="btn rounded-pill">
-          <img src="imagens/download.png">
-          Baixar Contúdo de produtos
-          </a>
-      </p>
+        <h4> Sobre Nós </h4>
+        <p>Aqui você pode conhecer toda nossa linha de produtos com suas características técnicas</p>
+        <div class="snbtn"> 
+            <a href="#" class="sobrenos"><img src="imagens/download.png"> </a>
+            <p>Baixar Contúdo de produtos</p>
+        </div>
+      
       </div>
     </div>
   </div> 
@@ -77,68 +89,51 @@
 <!-- produtos -->
 <section id="produtos">
   <div class="container">
+    <h1> Confira nossa linha de produtos </h1>
     <div class="row">
       <div class = "col-md-2 produtos">
-     <p class="text-center">
-          <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
-          </a>
-      </p>
-      <p>Neutro</p>
+          <a href="#" class="produtos"><img src="imagens/produto.jpg"> </a>
+          <p>Neutro</p>
       </div>
+
       <div class = "col-md-2 produtos">
-      <p class="text-center">
-          <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
-          </a>
-      </p>
-      <p>Perfumado</p>
+          <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
+          <p>Perfumados</p>
       </div>
-      <div class = "col-md-2 produtos">
-      <p class="text-center">
-          <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
-          </a>
-      </p>
-      <p>Álcool Gel</p>      
-      </div>
-      <div class = "col-md-2 produtos">
-      <p class="text-center">
-          <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
-          </a>
-      </p>
-      <p>Acendedores</p>
-      </div>
-      <div class = "col-md-2 produtos">
-      <p class="text-center">
-          <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
-          </a>
-      </p>
-      <p>Profissionais</p>
-      </div>
-      <div class = "col-md-2 produtos">
-      <p class="text-center">
-          <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
-          </a>
-      </p>
-      <p>Fisop</p>
       
+      <div class = "col-md-2 produtos">
+          <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
+          <p>Alcool Gel</p>
       </div>
+      
+      <div class = "col-md-2 produtos">
+          <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
+          <p>Acendedores</p>
+      </div>
+            
+      <div class = "col-md-2 produtos">
+          <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
+          <p>Profissionais</p>
+      </div>
+      
+      <div class = "col-md-2 produtos">
+          <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
+          <p>FISQP</p>
+      </div>
+
     </div>
   </div> 
 </section>
 
 <!--contato -->
 <section id="contato">
-  <div class="container-fluid">
+  <div class="contato">
+      <div class="container-fluid">
   <div class="row justify-content-md-center">
     <div class="col col-12 col-md-1">
       <p class="text-center">
           <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
+          <img src="imagens/place.png">
           </a>
     </div>
     <div class="col col-12 col-md-2">
@@ -160,7 +155,7 @@
     <div class="col 6 col-md-1">
       <p class="text-center">
           <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
+          <img src="imagens/whats.png">
           </a>
     </div>
     <div class="col col-12 col-md-2">
@@ -180,21 +175,24 @@
       </p>
     </div>
   </div>
-</section>
 
 <!-- direitos -->
 <section id="direitos">
- <div class="container-fluid">
+   <div class="container-fluid">
   <div class="row justify-content-md-center">
     <div class="col col-12 col-md-1">
       <p class="text-center">
           <a href="#" class="btn rounded-circle">
-          <img src="imagens/download.png">
+          <img src="imagens/face.png">
           </a>
     </div>
-    <div class="col col-12 col-md-3">
+    <div id="face">
+    <div class="col col-12 col-md-4">
+      <div class="face">
       <h4> Curta nossa página </h4>
     </div>
+  </div>
+  </div>
     <div class="col col-12 col-md-4">
     </div>
     <div class="col col-12 col-md-4">
@@ -203,10 +201,17 @@
   </div>
 </section>
 
+  </div>
+  
+</section>
+
+
+
+
 <!-- rodapé -->
 <section id="rodape">
-  <p class="text-center">
-  Desenvolvido por Viskoo Propaganda e Marketing </p>
+
+  <p class="rodape"> Desenvolvido por Viskoo Propaganda e Marketing </p>
 </section>
 </body>
 </html>

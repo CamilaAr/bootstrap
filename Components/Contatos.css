@@ -1,0 +1,43 @@
+/*inicio do contato*/
+
+.contato
+{
+	background-color: #00599D;
+}
+.contato p
+{
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+.contato h4
+{
+	text-align: center;
+	color: #A8CF38;
+
+}
+.face h4
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.contato h6
+{
+	text-align: justify;  
+	color: #FFFFFF;
+
+}
+
+.col{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:11;
+	width:100%;
+	height:100%;
+	filter: alpha(opacity=65);
+}
+$grid-columns: 1 !default;
+/*fim do contato*/
