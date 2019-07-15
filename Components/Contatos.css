@@ -5,11 +5,13 @@
 	background-color: #00599D;
 }
 .contato p
-{
+{	
+
 	text-align: left;
 	color: #FFFFFF;
 
 }
+
 
 .contato h4
 {
@@ -18,14 +20,15 @@
 
 }
 .face h4
-{
+{	margin-top: 10px;
 	text-align: justify;
 	color: #FFFFFF;
 }
 
 .contato h6
 {
-	text-align: justify;  
+	margin-top: 15px;
+	text-align: center;  
 	color: #FFFFFF;
 
 }

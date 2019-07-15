@@ -60,16 +60,17 @@ hr.linha2{
  }
 
  .button {
-  background-color: blue;
+  background-color: #0081C3;
   border: 2px solid #000000;
   color: White;
-  padding: 5px 60px;
+  padding: 10px 60px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 50px;
+  border-color: white;
 }
 .botao
 {
