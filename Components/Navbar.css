@@ -21,7 +21,7 @@
 }
 .navbar-nav li a
 {
-	color: blue !important;
+	color: #0380C3 !important;
 	font-weight: 600;
 	font-size: 15px;
 	float:right;
@@ -31,7 +31,7 @@
 }
 .navbar-nav li a:hover
 {
-	color: red !important;
+	color: #453F66 !important;
 
 }
 
