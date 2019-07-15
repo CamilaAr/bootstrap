@@ -1,4 +1,3 @@
-/*inicio do Sobre nós*/
 #sn
 {
 	background-color: #00599D;
@@ -16,20 +15,20 @@
 }
 hr.linha1{
 	border-top: 1px solid #8c8b8b;
-	 color:#000; 
-	 background-color:#000;
-	 border-color: white;
-	 width: 200px;
-	 float: left;
+	color:#000; 
+	background-color:#000;
+	border-color: white;
+	width: 200px;
+	float: left;
 }
 
 hr.linha2{
 	border-top: 1px solid #8c8b8b;
-	 color:#000; 
-	 background-color:#000;
-	 border-color: white;
-	 width: 200px;
-	 float: left;
+	color:#000; 
+	background-color:#000;
+	border-color: white;
+	width: 200px;
+	float: left;
 }
 .sn h1
 {
@@ -56,27 +55,24 @@ hr.linha2{
 }
  .snbtn
  {
- 	size: 20px;
- 	padding: 5px 5px;
-
- 	border-radius: 1000px;
- 	border: 2px solid #FFFFFF;
- 	background-color: #00599D;
- 	text-align: center;
- 	justify-content: center;
-  	align-items: center;
-  	 	margin-left: 80px;
+ 	color: #A8CF38;
+ 	align-content: center;
  }
 
- .snbtn p
- {
- 	font-weight: bold;
- 	color: #FFFFFF;
- }
-
- .snbtn img
-{	
-	padding: 8px;
-	height: 40px;
+ .button {
+  background-color: blue;
+  border: 2px solid #000000;
+  color: White;
+  padding: 5px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
 }
-/*fim do Sobre nós*/
+.botao
+{
+	margin-left: 80px;
+}
+/fim do Sobre nós/
