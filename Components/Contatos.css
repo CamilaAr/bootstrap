@@ -3,12 +3,14 @@
 .contato
 {
 	background-color: #00599D;
+	padding: 40px;
 }
 .contato p
 {	
 
 	text-align: left;
 	color: #FFFFFF;
+	font-size: 12px;
 
 }
 
@@ -17,12 +19,14 @@
 {
 	text-align: justify;
 	color: #A8CF38;
+	font-size: 20px;
 
 }
 .face h4
 {	margin-top: 10px;
-	text-align: justify;
+	text-align: left;
 	color: #FFFFFF;
+	font-size: 15px;
 }
 
 .contato h6
@@ -30,15 +34,16 @@
 	margin-top: 15px;
 	text-align: center;  
 	color: #FFFFFF;
+	font-size: 15px;
 
 }
 .imgs{
 	margin-top: -20px;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 .imgs2{
 	margin-top: -4px;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .col{
