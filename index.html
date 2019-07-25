@@ -4,7 +4,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -49,14 +49,15 @@
 
 <!-- banner -->
 <section id="banner">
-  <div style="width: 15%;background-color: #00599D;height: 3px;float: left;"></div>
-  <div style="width: 70%;background-color: #A8CF38;height: 3px;float: left;"></div>
-  <div style="width: 15%;background-color: #00599D;height: 3px;float: left;"></div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <img src="imagens/imagem1.jpg" class="img-fluid" alt="Responsive image"> 
+    </div>
+  </div>
+</div>
 
-  <div class="#">
-    <h1 class="title"></h1>
-    <img src="imagens/imagem1.jpg" class="img-fluid" alt="Responsive image"> 
-  </div> 
+  
 </section>
 <!-- fim banner -->
 
@@ -100,33 +101,33 @@
     <div class="row">
       <div class = "col-md-2 produtos">
           <a href="#" class="produtos"><img src="imagens/produto.jpg"> </a>
-          <p>Neutro</p>
+         <a href="#"> <p>Neutro</p> </a>
         </div>
 
 
       <div class = "col-md-2 produtos">
           <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
-          <p>Perfumados</p>
+          <a href="#"> <p>Perfumados</p> </a>
       </div>
       
       <div class = "col-md-2 produtos">
           <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
-          <p>Alcool Gel</p>
+          <a href="#"><p>Alcool Gel</p></a>
       </div>
       
       <div class = "col-md-2 produtos">
           <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
-          <p>Acendedores</p>
+         <a href="#"> <p>Acendedores</p></a>
       </div>
             
       <div class = "col-md-2 produtos">
           <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
-          <p>Profissionais</p>
+         <a href="#"> <p>Profissionais</p></a>
       </div>
       
       <div class = "col-md-2 produtos">
           <a href="#" class="produtos"> <img src="imagens/produto.jpg"> </a>
-          <p>FISQP</p>
+          <a href="#"><p>FISQP</p></a>
       </div>
             </div>
     </div>
@@ -136,7 +137,7 @@
 <!--contato -->
 <section id="contato">
   <div class="contato">
-      <div class="container-fluid">
+      <div class="container">
   <div class="row justify-content-md-center">
     <div class="col col-12 col-md-1">
       
@@ -202,7 +203,7 @@
 <!-- direitos -->
 <h4><hr class="linha4">
         </h4>
-   <div class="container-fluid">
+   <div class="container">
   <div class="row justify-content-md-center">
     <div class="col col-12 col-md-1">
       <p class="text-center">
@@ -231,7 +232,7 @@
 <!-- rodapé -->
 <section id="rodape">
 
-  <p class="rodape"> Desenvolvido por Viskoo Propaganda e Marketing </p>
+  <p class="rodape"> Desenvolvido por <a href="#"> Viskoo Propaganda e Marketing</a> </p>
 </section>
 </body>
 </html>

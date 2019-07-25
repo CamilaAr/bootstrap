@@ -29,14 +29,28 @@
 	background: transparent;
 	text-shadow: -2px -1px white; 
 }
+
+.navbar-nav li a:after {
+    content: "";
+    color: transparent;
+    display: block;
+    width: 20px;
+    border-bottom: 2px solid;
+    margin: 10px auto;
+    transform: rotate(90deg); 
+
+}
 .navbar-nav li a:hover
 {
+	transition-delay: 0.2s;
 	color: #453F66 !important;
 
 }
 
 .navbar-nav li a:hover:after {
+	transition-delay: 0.2s;
     content: "";
+    color: #453F66 !important;
     display: block;
     width: 20px;
     border-bottom: 2px solid;
