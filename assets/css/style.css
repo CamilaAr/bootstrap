@@ -2,12 +2,12 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
 
 /* --- Components design --- */
-@import url("components/Contatos.css");
-@import url("components/Banner.css");
-@import url("components/Produtos.css");
-@import url("components/Sobrenos.css");
-@import url("components/Navbar.css");
-@import url("components/Rodape.css");
+@import url("Contatos.css");
+@import url("Banner.css");
+@import url("Produtos.css");
+@import url("Sobrenos.css");
+@import url("Navbar.css");
+@import url("Rodape.css");
 
 {
 	padding: 0px;
